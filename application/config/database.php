@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = '127.0.0.1';
 $db['default']['username'] = 'root';
-$db['default']['password'] = '1kelein!';
+$db['default']['password'] = 'root';
 $db['default']['database'] = 'friendsigniter';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
@@ -63,7 +63,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-// $db['default']['port'] = 8889;
+$db['default']['port'] = 8889;
 
 
 /* End of file database.php */
